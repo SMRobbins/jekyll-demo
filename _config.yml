@@ -5,32 +5,28 @@
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
 #
-
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
-title: Your portfolio
-email: youremail@email.com
+title: Sarah Robbins
+email: sarahmrobbins@live.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I am a graduating Graphic Design student from St. Clair College in Windsor, Ontario. I have obtained skills in motion, illustration, packaging and layout design, as well as photoshop to help create a brand and connect clients with their audience through social media and your product. Prior to my degree, I obtained a B.A [h] in Visual Arts and Art History specializing in digital art, photography and painting. I have 15 years of experience as a visual artist, which developed my strengths in visual concepts, taking critism and having a strong intuition when it comes to design and an eye for detail. I was also voted in as the Vice-President of the Graphic Design Club, where I am spearheading our fundraising for the Grad Show.
+baseurl: "/jekyll-demo" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+insta: sarahrobbinsdesigns
+git: SMROBBINS  
 
-baseurl: "https://SMRobbins.github.io" # the subpath of your site, e.g. /blog
-url: "/jekyll-demo" # the base hostname & protocol for your site, e.g. http://example.com
-
-markdown: kramdown
 
 permalink: /:categories/:title/
 
-sass:
-  style: compact # possible values: nested expanded compact compressed
-  
-  
+# Build settings
+markdown: kramdown
+# theme: minima
+#host: 0.0.0.0
+#port: 4000
